@@ -1,0 +1,162 @@
+:root {
+  --primary-color: background: #EC594D;
+}
+* {
+  font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Global classes */
+.layout {
+  max-width: 1111px;
+  margin: auto
+}
+.home {
+  /* background: yellow; */
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: white;
+}
+.home-content img {
+  margin-bottom: 2rem;
+}
+.home-content .home-title {
+  margin-bottom: 5rem;
+  font-weight: Bold;
+font-size: 24px;
+line-height: 29px;
+}
+.expandSign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(236, 89, 77, 0.1);
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+}
+.expandSign a{
+  font-size: 65px;
+  color: #EC594D;
+
+}
+/* HOw it works */
+.how__it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.how__it-works > .title {
+  font-weight: 600;
+font-size: 75px;
+line-height: 88px;
+text-align: center;
+margin-bottom: 4rem;
+}
+.step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 3rem 0;
+  width: 100%;
+  /* background: #000; */
+}
+.steps {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* background: #000; */
+  width: 100%;
+}
+.step-content {
+  flex: 1;
+  max-width: 650px;
+  margin-bottom: 14rem;
+}
+.step-title {
+  /* font-family: 'Montserrat'; */
+font-weight: 600;
+font-size: 64px;
+line-height: 78px;
+/* text-align: center; */
+color: #EC594D;
+}
+.step-para {
+  
+/* font-family: 'Montserrat'; */
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 140%;
+/* or 36px */
+
+
+color: #000000;
+}
+.step-image {
+  flex: 1;
+  max-width: 200px;
+}
+.step2 {
+  flex-direction: row-reverse;
+}
+/* FREQUENTLY ASKED QUESTIONS */
+.questions {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* background: lightgrey; */
+}
+.q-title {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;  
+  text-align: center;
+}
+.q-ctr {
+  border: 1px solid black;
+  padding: 2rem 1rem;
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+.s-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.question {
+  font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+}
+.q-btn {
+  border: none;
+  background-color: transparent;
+}
+.minus {
+  display: none;
+}
+.q-para {
+  display: none;
+}
+/* FOR JAVASCRiPT */
+.reveal {
+  display: block;
+}
+.hide {
+  display: none;
+}
